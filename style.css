@@ -1,7 +1,10 @@
-```css
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+	max-width: 1200px; /* Added this line */
+    margin: 0 auto; /* Added this line */
+
 }
 
 header {
@@ -45,4 +48,28 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+.doctor-image {
+    width: 10px; /* Adjust the width here */
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Added this line */
+}
+
+.about-text {
+    flex: 1;
+    min-width: 60%; /* Added this line */
+}
+
+.about-image {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 1rem;
+    min-width: 30%; /* Added this line */
 }
